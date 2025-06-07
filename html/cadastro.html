@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div id= "container-main">
+        <div id="subcontainer">
+            <h1>SEJA BEM VINDO</h1>
+            <div id="options">
+                <a href="/html/login.html"><p id="login">LOGIN</p></a>
+                <a href="/html/cadastro.html"><p id="cadastrar">CADASTRAR</p></a>
+                
+                <script>
+                    document.getElementById("login").addEventListener("mouseover", function () {
+                        document.getElementById("cadastrar").style.borderBottom = "none";
+                    })
+                     document.getElementById("login").addEventListener("mouseout", function() {
+                    document.getElementById("cadastrar").style.borderBottom = "3px solid black";
+                    document.getElementById("cadastrar").style.transition = "0.2s";
+                    });
+                    
+                </script>
+            </div>
+        </div>
+
+        <div id="container-login">  
+        <h1>FAÇA SEU CADASTRO</h1>
+        <form id="formulario">
+            <input type="text" name="nome"  placeholder="Nome" id="nome" required >
+            <input type="email" name="email"  placeholder="Email" id="email" required>
+            <input type="password" name="senha"  placeholder="Senha" id="senha" required>
+            <button type="submit">CADASTRAR</button>
+        </form>
+        </div>
+       
+    </div>
+</body>
+</html>

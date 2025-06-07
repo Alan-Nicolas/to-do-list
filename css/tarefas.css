@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container-principal {
+    display: flex;
+    flex-flow: column;
+    border-radius: 17px ;
+    width: 820px;
+    height: 500px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: #C4E1E6;
+}
+header {
+    margin-top: 30px;
+    display: flex;
+    gap: 60px ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+header img {
+    position: relative;
+    top: 22px;
+    left: 50px;
+}
+main {
+    width: 720px;
+    position: relative;
+    left: 50px;
+    height: 350px ;
+}
+
+#inserir-tarefa {
+    height: 100px;
+    background-color: #A4CCD9;
+    border-radius: 35px;
+}
+
+textarea {
+    background-color: #A4CCD9;
+    width: 685px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 35px;
+    font-size: 16px;
+    resize: none; /* Impede redimensionamento */
+    outline: none;
+    }
+
+textarea:focus {
+    border: none;
+}
+
+#adicionar {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 45px;
+    border-radius: 0px 0px 35px 35px;
+}
+
+#adicionar button {
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+    height: 20px;
+    border: none;
+    background-color: #C4E1E6;
+    border-radius: 10px;
+}

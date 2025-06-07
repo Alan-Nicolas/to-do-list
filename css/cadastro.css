@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#container-main {
+    border-radius: 17px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 820px;
+    height: 500px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#subcontainer {
+    width: 449px;
+    height: 500px;
+    background-color:#C4E1E6 ;
+    border-radius: 17px;
+}
+
+#subcontainer h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+#options a {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-size: 30px;
+    padding: 0;
+    color: black;
+}
+
+#cadastrar{
+    width: 200px;
+    border-bottom: 3px solid black;
+    
+    
+}
+#login:hover{
+    width: 100px;
+    border-bottom: 3px solid black;
+    transition: 0.2s;
+    
+}
+
+
+
+#container-login {
+    width: 371px; /* 820 - 449 = 371 */
+    height: 500px;
+    padding: 20px;
+   
+}
+
+#container-login h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    
+}
+
+#container-login form {
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-size: 30px;
+    padding: 0;
+    color: black;
+}
+
+#formulario input {
+    margin: 10px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    background-color: #E6E0E9 ;
+    border-radius: 10px ;
+}
+
+#formulario button {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    border: none;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    background-color:#C4E1E6 ;
+    cursor: pointer;
+}
+#formulario button:hover {
+    transition: 0.2s;
+    background-color: #7da2a8;
+} 
+
+
+    
+
+
