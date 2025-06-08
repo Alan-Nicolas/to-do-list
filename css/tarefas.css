@@ -74,3 +74,23 @@ textarea:focus {
     background-color: #C4E1E6;
     border-radius: 10px;
 }
+
+
+#container-list-tarefas {
+    height: 100px;
+    background-color: #A4CCD9;
+    border-radius: 35px;
+}
+
+
+#list-tarefas {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    height: 45px;
+    border-radius: 0px 0px 35px 35px;
+}
+
+#container-list-tarefas p {
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
